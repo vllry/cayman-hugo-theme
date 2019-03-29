@@ -1,6 +1,6 @@
 # Cayman
 
-**TODO** netlify status badge 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a050ba7f-deca-43ea-9e70-677784edf90c/deploy-status)](https://app.netlify.com/sites/cayman-hugo-theme/deploys)
 
 Cayman is a clean, responsive theme for Hugo, ported from the original Jekyll Caymen Theme.
 
@@ -19,7 +19,7 @@ Cayman is a clean, responsive theme for Hugo, ported from the original Jekyll Ca
 
 ## Demo
 
-**TODO** demo link
+https://cayman-hugo-theme.netlify.com/
 
 ## Minimum Hugo version
 
@@ -51,9 +51,9 @@ hugo server --themesDir ../..
 
 ## Configuration
 
-Copy the `config.toml` or `config.yaml` from the **TODO** example site, then edit as desired. 
+Copy the `config.toml` or `config.yaml` from the [`exampleSite`](https://github.com/zwbetz-gh/cayman-hugo-theme/tree/master/exampleSite), then edit as desired. 
 
-If you copy this theme for your own needs, feel free to customize the colors however you like. A couple of nice sources for gradient colors are http://uigradients.com and http://jxnblk.com/shade/. **TODO** explain how to do this, and see http://uigradients.com
+**TODO** explain how to change header color gradient, see http://uigradients.com
 
 ## Favicons
 
@@ -61,7 +61,7 @@ Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) t
 
 ## Getting help
 
-If you run into an issue that isn't answered by this documentation or the **TODO** example site, then visit the [Hugo forum](https://discourse.gohugo.io/). The folks there are helpful and friendly. **Before** asking your question, be sure to read the [requesting help guidelines](https://discourse.gohugo.io/t/requesting-help/9132). Feel free to tag me in your question, my forum username is [@zwbetz](https://discourse.gohugo.io/u/zwbetz/summary).
+If you run into an issue that isn't answered by this documentation or the [`exampleSite`](https://github.com/zwbetz-gh/cayman-hugo-theme/tree/master/exampleSite), then visit the [Hugo forum](https://discourse.gohugo.io/). The folks there are helpful and friendly. **Before** asking your question, be sure to read the [requesting help guidelines](https://discourse.gohugo.io/t/requesting-help/9132). Feel free to tag me in your question, my forum username is [@zwbetz](https://discourse.gohugo.io/u/zwbetz/summary).
 
 ## Credits
 
