@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <div>
+    {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
+    <strong>Publish date: </strong>{{ .PublishDate.Format $dateFormat }}
+  </div>
+  {{ with .Params.tags }}
+    <div>
+      <strong>Tags: </strong>
+      {{ range . }}
+        {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
+        <a href="{{ $href }}">{{ . }}</a>
+      {{ end }}
+    </div>
+  {{ end }}
+  {{ .Content }}
+{{ end }}

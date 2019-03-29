@@ -1,0 +1,40 @@
+baseURL = "https://example.com"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Cayman"
+theme = "cayman-hugo-theme"
+googleAnalytics = "UA-123456789-1"
+disqusShortname = "yourdiscussshortname"
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  post = "/:filename/"
+
+[imaging]
+  quality = 99
+
+[params]
+  project_name = "Cayman Hugo Theme"
+  project_tagline = "A clean, responsive Hugo theme, ported from the original Jekyll Caymen theme"
+  dateFormat = "Jan 2, 2006" # For more date formats see https://gohugo.io/functions/format/
+  footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
+
+[menu]
+  [[menu.nav]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 4

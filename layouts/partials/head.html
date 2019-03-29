@@ -2,8 +2,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="css/normalize.css">
+  {{ $.Hugo.Generator }}
+  <link rel="stylesheet" href="{{ "css/normalize.css" | absURL }}">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/cayman.css">
+  {{ $options := (dict "targetPath" "css/cayman.css") }}
+  {{ $caymanCss := resources.Get "scss/cayman.scss" | toCSS $options | fingerprint }}
+  <link rel="stylesheet" href="{{ $caymanCss.Permalink }}">
   <title>{{ .Title }}</title>
 </head>
