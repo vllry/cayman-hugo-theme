@@ -4,163 +4,224 @@ date: 2019-03-29
 tags: [markdown, typography]
 ---
 
-<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a
-    href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
+## Text
 
-<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be
-  whitespace between paragraphs. There should be whitespace between paragraphs.</p>
+```
+Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
+```
 
-<p>There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be
-  whitespace between paragraphs. There should be whitespace between paragraphs.</p>
+Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
 
-<blockquote>
-  <p>There should be no margin above this first sentence.</p>
+## Paragraph 
 
-  <p>Blockquotes should be a lighter gray with a gray border along the left side.</p>
+```
+There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
-  <p>There should be no margin below this final sentence.</p>
-</blockquote>
+There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
+```
 
-<h1>
-  <a id="user-content-header-1" class="anchor" href="#header-1" aria-hidden="true"><span
-      class="octicon octicon-link"></span></a>Header 1</h1>
+There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
-<p>This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly
-  porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow
-  shoulder short ribs biltong.</p>
+There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs. There should be whitespace between paragraphs.
 
-<h2>
-  <a id="user-content-header-2" class="anchor" href="#header-2" aria-hidden="true"><span
-      class="octicon octicon-link"></span></a>Header 2</h2>
+## Blockquote 
 
-<blockquote>
-  <p>This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly
-    porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow
-    shoulder short ribs biltong.</p>
-</blockquote>
+```
+> There should be no margin above this first sentence.
+>
+> Blockquotes should be a lighter gray with a gray border along the left side.
+> 
+> There should be no margin below this final sentence.
+```
 
-<h3>
-  <a id="user-content-header-3" class="anchor" href="#header-3" aria-hidden="true"><span
-      class="octicon octicon-link"></span></a>Header 3</h3>
+> There should be no margin above this first sentence.
+>
+> Blockquotes should be a lighter gray with a gray border along the left side.
+> 
+> There should be no margin below this final sentence.
 
-<pre><code>This is a code block following a header.</code></pre>
+## Heading 
 
-<h4>
-  <a id="user-content-header-4" class="anchor" href="#header-4" aria-hidden="true"><span
-      class="octicon octicon-link"></span></a>Header 4</h4>
+````
+# Header 1
 
-<ul class="task-list">
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-</ul>
+This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
 
-<h5>
-  <a id="user-content-header-5" class="anchor" href="#header-5" aria-hidden="true"><span
-      class="octicon octicon-link"></span></a>Header 5</h5>
+## Header 2
 
-<ol class="task-list">
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
+> This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
 
-<h6>
-  <a id="user-content-header-6" class="anchor" href="#header-6" aria-hidden="true"><span
-      class="octicon octicon-link"></span></a>Header 6</h6>
+### Header 3
 
-<table>
-  <thead>
-    <tr>
-      <th>What</th>
-      <th>Follows</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>A table</td>
-      <td>A header</td>
-    </tr>
-    <tr>
-      <td>A table</td>
-      <td>A header</td>
-    </tr>
-    <tr>
-      <td>A table</td>
-      <td>A header</td>
-    </tr>
-  </tbody>
-</table>
+```
+This is a code block following a header.
+```
 
-<hr>
+#### Header 4
 
-<p>There's a horizontal rule above and below this.</p>
+- This is an unordered list following a header.
+- This is an unordered list following a header.
+- This is an unordered list following a header.
 
-<hr>
+##### Header 5
 
-<p>Here is an unordered list:</p>
+1. This is an ordered list following a header.
+1. This is an ordered list following a header.
+1. This is an ordered list following a header.
 
-<ul class="task-list">
-  <li>Salt-n-Pepa</li>
-  <li>Bel Biv DeVoe</li>
-  <li>Kid 'N Play</li>
-</ul>
+###### Header 6
+
+| What | Follows |
+| --- | --- |
+| A table | A header |
+| A table | A header |
+| A table | A header |
+````
+
+# Header 1
+
+This is a normal paragraph following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
+
+## Header 2
+
+> This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
+
+### Header 3
+
+```
+This is a code block following a header.
+```
+
+#### Header 4
+
+- This is an unordered list following a header.
+- This is an unordered list following a header.
+- This is an unordered list following a header.
+
+##### Header 5
+
+1. This is an ordered list following a header.
+1. This is an ordered list following a header.
+1. This is an ordered list following a header.
+
+###### Header 6
+
+| What    | Follows  |
+|---------|----------|
+| A table | A header |
+| A table | A header |
+| A table | A header |
+
+## Horizontal Line 
+
+```
+---
+
+There's a horizontal rule above and below this.
+
+---
+```
+
+---
+
+There's a horizontal rule above and below this.
+
+---
+
+## List
+
+```
+Here is an unordered list:
+
+- Salt-n-Pepa
+- Bel Biv DeVoe
+- Kid 'N Play
 
 <p>And an ordered list:</p>
 
-<ol class="task-list">
-  <li>Michael Jackson</li>
-  <li>Michael Bolton</li>
-  <li>Michael Bublé</li>
-</ol>
+1. Michael Jackson
+1. Michael Bolton
+1. Michael Bublé
 
-<p>And an unordered task list:</p>
+And an unordered task list:
 
-<ul class="task-list">
-  <li class="task-list-item">
-    <input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Create a sample markdown document
-  </li>
-  <li class="task-list-item">
-    <input type="checkbox" class="task-list-item-checkbox" checked="" disabled=""> Add task lists to it</li>
-  <li class="task-list-item">
-    <input type="checkbox" class="task-list-item-checkbox" disabled=""> Take a vacation</li>
-</ul>
+- [x] Create a sample markdown document
+- [x] Add task lists to it
+- [ ] Take a vacation
 
-<p>And a "mixed" task list:</p>
+And a "mixed" task list:
 
-<ul class="task-list">
-  <li class="task-list-item">
-    <input type="checkbox" class="task-list-item-checkbox" disabled=""> Steal underpants</li>
-  <li>?</li>
-  <li class="task-list-item">
-    <input type="checkbox" class="task-list-item-checkbox" disabled=""> Profit!</li>
-</ul>
+- [ ] Steal underpants
+- ?
+- [ ] Profit!
 
-<p>And a nested list:</p>
+And a nested list:
 
-<ul class="task-list">
-  <li>Jackson 5
+- Jackson 5
+    - Michael
+    - Tito
+    - Jackie
+    - Marlon
+    - Jermaine
+- TMNT
+    - Leonardo
+    - Michelangelo
+    - Donatello
+    - Raphael
 
-    <ul class="task-list">
-      <li>Michael</li>
-      <li>Tito</li>
-      <li>Jackie</li>
-      <li>Marlon</li>
-      <li>Jermaine</li>
-    </ul>
-  </li>
-  <li>TMNT
+Definition lists can be used with HTML syntax. Definition terms are bold and italic.
 
-    <ul class="task-list">
-      <li>Leonardo</li>
-      <li>Michelangelo</li>
-      <li>Donatello</li>
-      <li>Raphael</li>
-    </ul>
-  </li>
-</ul>
+<dl>
+  <dt>Name</dt>
+  <dd>Godzilla</dd>
+  <dt>Born</dt>
+  <dd>1952</dd>
+  <dt>Birthplace</dt>
+  <dd>Japan</dd>
+  <dt>Color</dt>
+  <dd>Green</dd>
+</dl>
+```
 
-<p>Definition lists can be used with HTML syntax. Definition terms are bold and italic.</p>
+Here is an unordered list:
+
+- Salt-n-Pepa
+- Bel Biv DeVoe
+- Kid 'N Play
+
+<p>And an ordered list:</p>
+
+1. Michael Jackson
+1. Michael Bolton
+1. Michael Bublé
+
+And an unordered task list:
+
+- [x] Create a sample markdown document
+- [x] Add task lists to it
+- [ ] Take a vacation
+
+And a "mixed" task list:
+
+- [ ] Steal underpants
+- ?
+- [ ] Profit!
+
+And a nested list:
+
+- Jackson 5
+    - Michael
+    - Tito
+    - Jackie
+    - Marlon
+    - Jermaine
+- TMNT
+    - Leonardo
+    - Michelangelo
+    - Donatello
+    - Raphael
+
+Definition lists can be used with HTML syntax. Definition terms are bold and italic.
 
 <dl>
   <dt>Name</dt>
@@ -173,146 +234,133 @@ tags: [markdown, typography]
   <dd>Green</dd>
 </dl>
 
-<hr>
+## Table
 
-<p>Tables should have bold headings and alternating shaded rows.</p>
+```
+Tables should have bold headings and alternating shaded rows.
 
-<table>
-  <thead>
-    <tr>
-      <th>Artist</th>
-      <th>Album</th>
-      <th>Year</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Michael Jackson</td>
-      <td>Thriller</td>
-      <td>1982</td>
-    </tr>
-    <tr>
-      <td>Prince</td>
-      <td>Purple Rain</td>
-      <td>1984</td>
-    </tr>
-    <tr>
-      <td>Beastie Boys</td>
-      <td>License to Ill</td>
-      <td>1986</td>
-    </tr>
-  </tbody>
-</table>
+| Artist          | Album          | Year |
+|-----------------|----------------|------|
+| Michael Jackson | Thriller       | 1982 |
+| Prince          | Purple Rain    | 1984 |
+| Beastie Boys    | License to Ill | 1986 |
 
-<p>If a table is too wide, it should condense down and/or scroll horizontally.</p>
+<br>
 
-<table>
-  <thead>
-    <tr>
-      <th>Artist</th>
-      <th>Album</th>
-      <th>Year</th>
-      <th>Label</th>
-      <th>Awards</th>
-      <th>Songs</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Michael Jackson</td>
-      <td>Thriller</td>
-      <td>1982</td>
-      <td>Epic Records</td>
-      <td>Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for
-        Favorite Soul/R&amp;B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album,
-        Non-Classical</td>
-      <td>Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature,
-        P.Y.T. (Pretty Young Thing), The Lady in My Life</td>
-    </tr>
-    <tr>
-      <td>Prince</td>
-      <td>Purple Rain</td>
-      <td>1984</td>
-      <td>Warner Brothers Records</td>
-      <td>Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album,
-        American Music Award for Favorite Soul/R&amp;B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy
-        Award for Best Rock Performance by a Duo or Group with Vocal</td>
-      <td>Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die
-        4 U, Baby I'm a Star, Purple Rain</td>
-    </tr>
-    <tr>
-      <td>Beastie Boys</td>
-      <td>License to Ill</td>
-      <td>1986</td>
-      <td>Mercury Records</td>
-      <td>noawardsbutthistablecelliswide</td>
-      <td>Rhymin &amp; Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for
-        Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get
-        Ill</td>
-    </tr>
-  </tbody>
-</table>
+| Artist          | Album          | Year | Label                   | Awards                                                                                                                                                                                                                                                                          | Songs                                                                                                                                                                                                                     |
+|-----------------|----------------|------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Michael Jackson | Thriller       | 1982 | Epic Records            | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical                                                | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life                                                               |
+| Prince          | Purple Rain    | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain                                                                           |
+| Beastie Boys    | License to Ill | 1986 | Mercury Records         | noawardsbutthistablecelliswide                                                                                                                                                                                                                                                  | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
+```
 
-<hr>
+Tables should have bold headings and alternating shaded rows.
 
-<p>Code snippets like <code>var foo = "bar";</code> can be shown inline.</p>
+| Artist          | Album          | Year |
+|-----------------|----------------|------|
+| Michael Jackson | Thriller       | 1982 |
+| Prince          | Purple Rain    | 1984 |
+| Beastie Boys    | License to Ill | 1986 |
 
-<p>Also, <code>this should vertically align</code> <del><code>with this</code></del> <del>and this</del>.</p>
+<br>
 
-<p>Code can also be shown in a block element.</p>
+| Artist          | Album          | Year | Label                   | Awards                                                                                                                                                                                                                                                                          | Songs                                                                                                                                                                                                                     |
+|-----------------|----------------|------|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Michael Jackson | Thriller       | 1982 | Epic Records            | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical                                                | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life                                                               |
+| Prince          | Purple Rain    | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain                                                                           |
+| Beastie Boys    | License to Ill | 1986 | Mercury Records         | noawardsbutthistablecelliswide                                                                                                                                                                                                                                                  | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
 
-<pre><code>var foo = "bar";
-</code></pre>
 
-<p>Code can also use syntax highlighting.</p>
+## Code 
 
-<div class="highlight highlight-Javascript">
-  <pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span>;</pre>
-</div>
+````
+Code snippets like `var foo = "bar";` can be shown inline.
 
-<pre><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.</code></pre>
+Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
 
-<div class="highlight highlight-Javascript">
-  <pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>The same thing is true for code with syntax highlighting. A single line of code should horizontally scroll if it is really long.<span class="pl-pds">"</span></span>;</pre>
-</div>
+Code can also be shown in a block element.
 
-<p>Inline code inside table cells should still be distinguishable.</p>
+```
+var foo = "bar";
+```
 
-<table>
-  <thead>
-    <tr>
-      <th>Language</th>
-      <th>Code</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Javascript</td>
-      <td><code>var foo = "bar";</code></td>
-    </tr>
-    <tr>
-      <td>Ruby</td>
-      <td><code>foo = "bar"</code></td>
-    </tr>
-  </tbody>
-</table>
+Code can also use syntax highlighting.
 
-<hr>
+```js
+var foo = "bar";
+```
 
-<p>Small images should be shown at their actual size.</p>
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
 
-<p><a
-    href="https://camo.githubusercontent.com/16a9d5241f679b6429fc0597f10816dd2665bbb2/687474703a2f2f706c6163656b697474656e2e636f6d2f672f3330302f3230302f"
-    target="_blank"><img
-      src="https://camo.githubusercontent.com/16a9d5241f679b6429fc0597f10816dd2665bbb2/687474703a2f2f706c6163656b697474656e2e636f6d2f672f3330302f3230302f"
-      alt="" data-canonical-src="https://placekitten.com/g/300/200/" style="max-width:100%;"></a></p>
+```js
+var foo = "The same thing is true for code with syntax highlighting. A single line of code should horizontally scroll if it is really long.";
+```
 
-<p>Large images should always scale down and fit in the content container.</p>
+Inline code inside table cells should still be distinguishable.
 
-<p><a
-    href="https://camo.githubusercontent.com/afe46418285497605cf4f6376b75f8c818658fb1/687474703a2f2f706c6163656b697474656e2e636f6d2f672f313230302f3830302f"
-    target="_blank"><img
-      src="https://camo.githubusercontent.com/afe46418285497605cf4f6376b75f8c818658fb1/687474703a2f2f706c6163656b697474656e2e636f6d2f672f313230302f3830302f"
-      alt="" data-canonical-src="https://placekitten.com/g/1200/800/" style="max-width:100%;"></a></p>
+| Language   | Code               |
+|------------|--------------------|
+| Javascript | `var foo = "bar";` |
+| Ruby       | `foo = "bar"`      |
+````
 
-<pre><code>This is the final element on the page and there should be no margin below this.</code></pre>
+Code snippets like `var foo = "bar";` can be shown inline.
+
+Also, `this should vertically align` ~~`with this`~~ ~~and this~~.
+
+Code can also be shown in a block element.
+
+```
+var foo = "bar";
+```
+
+Code can also use syntax highlighting.
+
+```js
+var foo = "bar";
+```
+
+```
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+```
+
+```js
+var foo = "The same thing is true for code with syntax highlighting. A single line of code should horizontally scroll if it is really long.";
+```
+
+Inline code inside table cells should still be distinguishable.
+
+| Language   | Code               |
+|------------|--------------------|
+| Javascript | `var foo = "bar";` |
+| Ruby       | `foo = "bar"`      |
+
+## Image
+
+````
+Small images should be shown at their actual size.
+
+![](https://unsplash.it/300/200)
+
+Large images should always scale down and fit in the content container.
+
+![](https://unsplash.it/1200/800)
+
+```
+This is the final element on the page and there should be no margin below this.
+```
+````
+
+Small images should be shown at their actual size.
+
+![](https://unsplash.it/300/200)
+
+Large images should always scale down and fit in the content container.
+
+![](https://unsplash.it/1200/800)
+
+```
+This is the final element on the page and there should be no margin below this.
+```

@@ -5,6 +5,8 @@ title = "Cayman"
 theme = "cayman-hugo-theme"
 googleAnalytics = "UA-123456789-1"
 disqusShortname = "yourdiscussshortname"
+pygmentsCodefences = true
+pygmentsStyle = "pygments"
 
 [taxonomies]
   tag = "tags"

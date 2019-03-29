@@ -8,5 +8,5 @@
   {{ $options := (dict "targetPath" "css/cayman.css") }}
   {{ $caymanCss := resources.Get "scss/cayman.scss" | toCSS $options | fingerprint }}
   <link rel="stylesheet" href="{{ $caymanCss.Permalink }}">
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }} | {{ $.Site.Title }}</title>
 </head>
