@@ -55,6 +55,8 @@ Copy the `config.toml` or `config.yaml` from the [`exampleSite`](https://github.
 
 **TODO** explain how to change header color gradient, see http://uigradients.com
 
+**TODO** the **extended** version of Hugo is required if you wish to make changes to the style-related params in the config file. 
+
 ## Favicons
 
 Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) then copy-paste the generated favicon files under `static`. 
