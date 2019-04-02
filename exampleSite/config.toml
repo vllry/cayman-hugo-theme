@@ -21,7 +21,7 @@ pygmentsStyle = "pygments"
   post = "/:filename/"
 
 [params]
-  # Header text
+  # Header text, can be markdown
   project_name = "Cayman Hugo Theme"
   project_tagline = "A clean, responsive Hugo theme, ported from the original Jekyll Caymen theme"
 
