@@ -339,7 +339,7 @@ Inline code inside table cells should still be distinguishable.
 
 ## Image
 
-````
+```
 Small images should be shown at their actual size.
 
 ![](https://unsplash.it/300/200)
@@ -347,11 +347,7 @@ Small images should be shown at their actual size.
 Large images should always scale down and fit in the content container.
 
 ![](https://unsplash.it/1200/800)
-
 ```
-This is the final element on the page and there should be no margin below this.
-```
-````
 
 Small images should be shown at their actual size.
 
