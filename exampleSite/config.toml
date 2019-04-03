@@ -32,6 +32,9 @@ pygmentsStyle = "pygments"
   # Footer text, can be markdown
   footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
 
+  # If true, the CSS/JS for Katex math typesetting are enabled
+  katex = true
+
   # Breakpoints
   large_breakpoint = "64em"
   medium_breakpoint = "42em"
