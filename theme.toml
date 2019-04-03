@@ -3,8 +3,8 @@ license = "CC BY 4.0"
 licenselink = "https://creativecommons.org/licenses/by/4.0/"
 description = "Cayman is a clean, responsive theme for Hugo, ported from the original Jekyll Caymen Theme."
 homepage = "https://github.com/zwbetz-gh/cayman-hugo-theme"
-tags = ["todo"]
-features = ["todo"]
+tags = ["blog", "clean", "katex", "color configuration"]
+features = ["blog", "clean", "katex", "color configuration"]
 min_version = "0.54.0"
 
 [author]
