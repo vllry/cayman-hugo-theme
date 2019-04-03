@@ -25,6 +25,8 @@ https://cayman-hugo-theme.netlify.com/
 
 Hugo version `0.54.0` or higher is required. View the [Hugo releases](https://github.com/gohugoio/hugo/releases) and download the binary for your OS.
 
+**Note**: The extended version of Hugo is only required if you wish to edit style-related params in your config file. This is because this theme uses Hugo Pipes and SCSS. 
+
 ## Installation
 
 From the root of your site:
@@ -53,9 +55,7 @@ hugo server --themesDir ../..
 
 Copy the `config.toml` **or** `config.yaml` from the [`exampleSite`](https://github.com/zwbetz-gh/cayman-hugo-theme/tree/master/exampleSite), then edit as desired. 
 
-**Note**: The extended version of Hugo is required if you wish to edit style-related params in the config file. Why? Because this theme uses Hugo Pipes to paramaterize its SCSS file. 
-
-The following site is good if you want some color gradient ideas http://uigradients.com
+When editing the header background colors, [this site](http://uigradients.com) has some nice color combinations. 
 
 ## Favicons
 
