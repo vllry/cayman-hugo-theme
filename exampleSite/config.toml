@@ -23,7 +23,7 @@ pygmentsStyle = "pygments"
 [params]
   # Header text, can be markdown
   project_name = "Cayman Hugo Theme"
-  project_tagline = "A clean, responsive Hugo theme, ported from the original Jekyll Caymen theme"
+  project_tagline = "A clean, responsive Hugo theme, ported from the original Jekyll Cayman theme"
 
   # Date format for post list and single pages
   # For more date formats see https://gohugo.io/functions/format/
